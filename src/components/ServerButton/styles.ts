@@ -10,7 +10,7 @@ export const Button = styled.button<Props>`
 
     flex-shrink: 0;
     margin-bottom: 8px;
-    border-radius: ${props => props.isHome ? '25%' : '16px'};
+    border-radius: ${props => props.isHome ? '25%' : '100%'};
 
     width: 48px;
     height: 48px;

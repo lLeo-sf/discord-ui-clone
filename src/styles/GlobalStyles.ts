@@ -1,4 +1,4 @@
-import { createGlobalStyle } from 'styled-components';
+import { createGlobalStyle } from 'styled-components'
 
 export default createGlobalStyle `
     *{
@@ -24,6 +24,7 @@ export default createGlobalStyle `
         --quaternary: #292b2f;
         --quinary: #393d42;
         --senary: #828386;
+        --dark: #202225;
      
         --white: #fff;
         --gray: #8a8c90;
@@ -39,4 +40,6 @@ export default createGlobalStyle `
      
         --especial: #439a63;
       }
+
+     
 `;
