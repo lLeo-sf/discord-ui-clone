@@ -57,7 +57,7 @@ export const Button = styled.button<Props>`
         right: -4px;
 
         border-radius: 12px;
-        border: 4px solid var(--primary);
+        border: 4px solid var(--dark);
         
         text-align: center;
         font-size: 13px;

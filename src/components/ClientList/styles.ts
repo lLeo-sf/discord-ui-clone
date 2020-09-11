@@ -7,7 +7,7 @@ export const Container = Styled.div`
     width: 100%;
     height: 100%;
 
-    background:var(--quinary);
+    background:var(--secondary);
 
     overflow-y:scroll;
 

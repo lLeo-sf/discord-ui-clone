@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 export const Container = styled.div`
     grid-area: SN;
-    background: var(--quinary);
+    background: var(--secondary);
 
     display:flex;
     justify-content: center;

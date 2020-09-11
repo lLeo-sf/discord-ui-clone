@@ -6,7 +6,7 @@ export const Container = styled.div`
     width: 100%;
     height: 100%;
 
-    background: var(--secondary);
+    background: var(--tertiary);
 
     display:flex;
     justify-content:center;
