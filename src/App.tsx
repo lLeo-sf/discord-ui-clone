@@ -1,12 +1,13 @@
 import React from 'react';
-import Layout from './components/Layout';
+import Home from './components/Screens/Teste';
 import GlobalStyles from './styles/GlobalStyles';
+
+import Routes from './routes';
 
 function App() {
   return (
     <>
-      <Layout />
-
+      <Routes />
       <GlobalStyles />
     </>
   );

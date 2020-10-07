@@ -1,8 +1,7 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 import { Container, UserPic, Message, Area, Line, Info, Mensagens, New} from './styles';
-
-import { FaPlus } from 'react-icons/fa';
 
 
 import PicUser from '../../assets/user.png';
@@ -65,6 +64,7 @@ const Chat: React.FC = () => {
                     <Mensagens>
                         <span>
                              Lorem Ipsum é simplesmente uma simulação de texto<br/> da indústria tipográfica e de impressos
+                             <Link to="/Teste">Ir</Link>
                         </span>
                     </Mensagens>
                 </Line>
